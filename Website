@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charmed Aura</title>
+    
+    <!-- Google Fonts links for Glamor, Odena Glamour, and Playfair Display -->
+    <link href="https://fonts.googleapis.com/css2?family=Glamor&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Odena+Glamour&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Odena Glamour', sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            color: gold;
+        }
+
+        h1 {
+            font-family: 'Glamor', sans-serif;
+            font-size: 48px;
+            color: royalblue;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        /* Title and Welcome Section */
+        h2, h3 {
+            font-family: 'Playfair Display', serif;
+            color: royalblue;
+            text-align: center;
+        }
+
+        /* Bracelet Options Section */
+        .bracelet-options, .bracelet-text {
+            font-family: 'Playfair Display', serif;
+            font-size: 18px;
+            color: black;
+            text-align: center;
+        }
+
+        .bracelet-options {
+            margin-top: 20px;
+        }
+
+        /* Payment and Contact Information Section */
+        .contact-info {
+            font-family: 'Playfair Display', serif;
+            font-size: 16px;
+            color: black;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        /* Button and Form Styles */
+        button {
+            background-color: royalblue;
+            color: white;
+            font-size: 18px;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: gold;
+            color: royalblue;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        /* Footer Section */
+        footer {
+            font-family: 'Playfair Display', serif;
+            font-size: 16px;
+            color: gold;
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: royalblue;
+        }
+
+        .footer-links {
+            margin-top: 10px;
+        }
+
+        .footer-links a {
+            color: gold;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Charmed Aura</h1>
+
+    <div class="content">
+        <h2>Welcome to Charmed Aura, where your style meets custom charm!</h2>
+        <h3>Shop Now and Customize Your Bracelet</h3>
+
+        <!-- Bracelet Options Section -->
+        <div class="bracelet-options">
+            <p>Choose your bracelet type:</p>
+            <ul>
+                <li>Beaded Bracelets - Up to 3 colors, add a name for $1.00 extra.</li>
+                <li>Rubber Band Bracelets - Choose up to 2 colors, add a rubber-band ring for 50¢ extra.</li>
+            </ul>
+        </div>
+
+        <div class="bracelet-text">
+            <p>Select the color options for your bracelets:</p>
+            <p>Beaded Bracelet Colors: Yellow, Orange, Hot Pink, Purple, Green, Blue, Transparent Orange, Transparent Yellow, Transparent Hot Pink, Black, White, Transparent White, Transparent Green, Transparent Blue, Transparent Purple.</p>
+            <p>Rubber Band Bracelet Colors: Yellow, Orange, Green, Pink, Red, Black, Purple.</p>
+        </div>
+
+        <div class="bracelet-text">
+            <p>Would you like to add your name for $1.00 extra?</p>
+            <button>Add Name ($1.00)</button>
+        </div>
+
+        <div class="bracelet-text">
+            <p>Would you like to add a rubber-band ring for 50¢ extra?</p>
+            <button>Add Rubber-Band Ring (50¢)</button>
+        </div>
+
+        <!-- Payment Information -->
+        <div class="contact-info">
+            <h3>Payment Information</h3>
+            <p>We accept payments primarily through Cash App. Please send your payment to:</p>
+            <p><strong>$Keyorahhh</strong></p>
+            <p>For support, you can reach us at:</p>
+            <p><strong>Owner: +1 (973) 991-6625</strong></p>
+            <p><strong>Customer Support: +1 (862) 281-2949</strong></p>
+            <p><strong>Email: <a href="mailto:queennewz106@gmail.com">queennewz106@gmail.com</a></strong></p>
+            <p>Follow us on Instagram: <a href="https://www.instagram.com/charmed._aura" target="_blank">@charmed._aura</a></p>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Thank you for visiting Charmed Aura!</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+        </div>
+    </footer>
+</body>
+</html>
